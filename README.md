@@ -1,9 +1,27 @@
-# blog_project
-Clone all files to your local computer
+blog_project
 
-In your commmand line, go to your repository.
+A basic Blog Application.
 
-Create a new virtual environment or activate the existing virtual environment.
+Installation
 
-Run python manage.py runserver
+Clone or download the repository.
 
+Create a new virtual environment for the project.
+
+virtualenv venv
+
+source venv/bin/activate
+
+Install required python libraries giving in the requirements.txt file.
+
+pip install -r requirements.txt
+
+Run Django migrations.
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+Start the application.
+python manage.py runserver
